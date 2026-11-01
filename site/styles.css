@@ -210,10 +210,17 @@ p { margin: 0 0 1em; }
   .menu a { padding: .8rem 0; border-bottom: 1px solid rgba(250,246,239,.1); }
   .menu a.btn { margin-top: .8rem; text-align: center; border-bottom: 0; }
   .about { grid-template-columns: 1fr; }
-  .about-photo { max-width: 320px; margin: 0 auto; width: 100%; }
+  .about-photo { max-width: 260px; margin: 0 auto; width: 100%; }
+  .about-photo img {
+    aspect-ratio: 1; object-position: 50% 50%; border-radius: 50%;
+    box-shadow: 0 0 0 6px var(--cream), 0 0 0 7px var(--gold), 0 24px 48px -24px rgba(27,31,59,.4);
+  }
+  .about-text { text-align: center; }
+  .facts { gap: .6rem; }
+  .facts strong { font-size: 1.7rem; }
+  .facts span { font-size: .8rem; line-height: 1.4; display: block; }
   .orbit { right: -40%; width: 110vw; opacity: .6; }
   .slot { grid-template-columns: 1fr; gap: .2rem; }
-  .facts { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
