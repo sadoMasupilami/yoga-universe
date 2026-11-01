@@ -12,7 +12,6 @@ In `site/index.html` sind folgende Stellen mit `[... ergänzen]` markiert:
 - **Kontakt**: E-Mail, Telefon, Adresse des Yogaraums
 - **Impressum**: Anschrift und E-Mail (in Österreich Pflicht)
 - **Kurse**: Die Zeiten im Wochenplan sind Beispiele
-- **Foto**: Bild als `site/karin.jpg` ablegen und den Platzhalter im Abschnitt „Über mich“ ersetzen
 
 ## Lokal ansehen
 
